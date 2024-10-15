@@ -38,7 +38,7 @@ export default function ZenProductivity() {
       <div className={styles.navbar}>
           <div className={styles.navSubcontainer}>
             <Image 
-              src="/cl_logo.png"
+              src="../../public/cl_logo.png"
               width={25}
               height={25}
             />

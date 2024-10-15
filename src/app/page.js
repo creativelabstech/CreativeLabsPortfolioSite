@@ -42,7 +42,7 @@ export default function Home() {
       {/* <div className={styles.navbar}>
           <div className={styles.navSubcontainer}>
             <Image 
-              src="/cl_logo.png"
+              src="../../public/cl_logo.png"
               width={25}
               height={25}
             />
@@ -81,7 +81,7 @@ export default function Home() {
             <>
               <div className={styles.carouselFrame} data-swiper-parallax="-3000">
                 <Image 
-                  src="/card_otter-escape.png"
+                  src="../public/card_otter-escape.png"
                   width={currIndex==0 ? 450 : 400}
                   height={currIndex==0 ? 650 : 600}
                   style={{margin:'0 auto'}}
@@ -102,7 +102,7 @@ export default function Home() {
             
               <div className={styles.carouselFrame}>
                 <Image 
-                  src="/card_college-cookbook.png"
+                  src="../public/card_college-cookbook.png"
                   // width={currIndex==0 ? 450 : 400}
                   // height={currIndex==0 ? 650 : 600}
                   width={currIndex==0 ? 450 : 400}
@@ -124,7 +124,7 @@ export default function Home() {
             <>
               <div className={styles.carouselFrame}>
                 <Image 
-                  src="/card_immersive-fashion.png"
+                  src="../public/card_immersive-fashion.png"
                   width={currIndex==0 ? 450 : 400}
                   height={currIndex==0 ? 650 : 600}
                   style={{margin:'0 auto'}}
@@ -144,7 +144,7 @@ export default function Home() {
             <>
               <div className={styles.carouselFrame}>
                 <Image 
-                  src="/images/card_ovid.png"
+                  src="../public/images/card_ovid.png"
                   width={currIndex==0 ? 450 : 400}
                   height={currIndex==0 ? 650 : 600}
                   style={{margin:'0 auto'}}
@@ -164,7 +164,7 @@ export default function Home() {
             <>
               <div className={styles.carouselFrame}>
                 <Image 
-                  src="/images/card_zen-productivity.png"
+                  src="../public/images/card_zen-productivity.png"
                   width={currIndex==0 ? 450 : 400}
                   height={currIndex==0 ? 650 : 600}
                   style={{margin:'0 auto'}}
@@ -184,7 +184,7 @@ export default function Home() {
             <>
               <div className={styles.carouselFrame}>
                 <Image 
-                  src="/images/card_otter-escape.png"
+                  src="../public/images/card_otter-escape.png"
                   width={currIndex==0 ? 450 : 400}
                   height={currIndex==0 ? 650 : 600}
                   style={{margin:'0 auto'}}
@@ -204,7 +204,7 @@ export default function Home() {
             <>
               <div className={styles.carouselFrame}>
                 <Image 
-                  src="/images/card_college-cookbook.png"
+                  src="../public/images/card_college-cookbook.png"
                   // width={isActive ? 450 : 400}
                   // height={isActive ? 650 : 600}
                   width={400}
@@ -226,7 +226,7 @@ export default function Home() {
             <>
               <div className={styles.carouselFrame}>
                 <Image 
-                  src="/images/card_immersive-fashion.png"
+                  src="../public/images/card_immersive-fashion.png"
                   width={currIndex==0 ? 450 : 400}
                   height={currIndex==0 ? 650 : 600}
                   style={{margin:'0 auto'}}
@@ -246,7 +246,7 @@ export default function Home() {
             <>
               <div className={styles.carouselFrame}>
                 <Image 
-                  src="/images/card_ovid.png"
+                  src="../public/images/card_ovid.png"
                   width={currIndex==0 ? 450 : 400}
                   height={currIndex==0 ? 650 : 600}
                   style={{margin:'0 auto'}}
@@ -266,7 +266,7 @@ export default function Home() {
             <>
               <div className={styles.carouselFrame}>
                 <Image 
-                  src="/images/card_zen-productivity.png"
+                  src="../public/images/card_zen-productivity.png"
                   width={currIndex==0 ? 450 : 400}
                   height={currIndex==0 ? 650 : 600}
                   style={{margin:'0 auto'}}
@@ -286,7 +286,7 @@ export default function Home() {
             <>
               <div className={styles.carouselFrame}>
                 <Image 
-                  src="/images/card_immersive-fashion.png"
+                  src="../public/images/card_immersive-fashion.png"
                   width={currIndex==0 ? 450 : 400}
                   height={currIndex==0 ? 650 : 600}
                   style={{margin:'0 auto'}}

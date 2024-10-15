@@ -15,7 +15,7 @@
     "@mui/material": "^5.15.18",
     "@react-spring/parallax": "^9.7.3",
     "@react-spring/web": "^9.7.3",
-    "next": "14.1.0",
+    "next": "^14.1.0",
     "react": "^18",
     "react-dom": "^18",
     "react-glider": "^4.0.2",
