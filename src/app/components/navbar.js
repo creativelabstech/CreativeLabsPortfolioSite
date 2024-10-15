@@ -11,7 +11,7 @@ export default function navbar() {
       {/* <Link href="/"> */}
             <div className={styles.navSubcontainer}>
                 <Image 
-                  src="../../public/cl_logo.png"
+                  src="/images/cl_logo.png"
                   width={25}
                   height={25}
                 />
