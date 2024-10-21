@@ -72,10 +72,11 @@ export default function Home() {
         centeredSlides={true}
         loop={true}
         parallax={true}
-        lazy= {{
-          loadPrevNext: true, // pre-loads the next image to avoid showing a loading placeholder if possible
-          loadPrevNextAmount: 10 //or, if you wish, preload the next 2 images
-        }}
+        loading="eager"
+        // lazy= {{
+        //   loadPrevNext: true, // pre-loads the next image to avoid showing a loading placeholder if possible
+        //   loadPrevNextAmount: 10 //or, if you wish, preload the next 2 images
+        // }}
         mousewheel={{
           forceToAxis: true
         }}
