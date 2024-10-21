@@ -92,6 +92,7 @@ export default function Home() {
                   width={currIndex==0 ? 450 : 400}
                   height={currIndex==0 ? 650 : 600}
                   style={{margin:'0 auto'}}
+                  loading="eager"
                 />
                 {isActive &&
                   <div style={{marginTop: 15, }}>
@@ -115,6 +116,7 @@ export default function Home() {
                   width={currIndex==0 ? 450 : 400}
                   height={currIndex==0 ? 650 : 600}
                   style={{margin:'0 auto'}}
+                  loading="eager"
                 />
                 {isActive &&
                   <div style={{marginTop: 15, }}>
@@ -135,6 +137,7 @@ export default function Home() {
                   width={currIndex==0 ? 450 : 400}
                   height={currIndex==0 ? 650 : 600}
                   style={{margin:'0 auto'}}
+                  loading="eager"
                 />
                 {isActive &&
                   <div style={{marginTop: 15, }}>
@@ -155,6 +158,7 @@ export default function Home() {
                   width={currIndex==0 ? 450 : 400}
                   height={currIndex==0 ? 650 : 600}
                   style={{margin:'0 auto'}}
+                  loading="eager"
                 />
                 {isActive &&
                   <div style={{marginTop: 15, }}>
@@ -175,6 +179,7 @@ export default function Home() {
                   width={currIndex==0 ? 450 : 400}
                   height={currIndex==0 ? 650 : 600}
                   style={{margin:'0 auto'}}
+                  loading="eager"
                 />
                 {isActive &&
                   <div style={{marginTop: 15, }}>
@@ -195,6 +200,7 @@ export default function Home() {
                   width={currIndex==0 ? 450 : 400}
                   height={currIndex==0 ? 650 : 600}
                   style={{margin:'0 auto'}}
+                  loading="eager"
                 />
                 {isActive &&
                   <div style={{marginTop: 15, }}>
