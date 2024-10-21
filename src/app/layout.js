@@ -20,8 +20,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={roboto_mono.className} style={{height:'100%'}}>
-      <Navbar/>
         <body className={roboto_mono.className} style={{height:'100%'}}>
+          <Navbar/>
           {children}
         </body>
     </html>
