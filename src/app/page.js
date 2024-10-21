@@ -15,7 +15,12 @@ import 'swiper/css/navigation';
 import { Pagination, Navigation, Mousewheel } from 'swiper/modules';
 // import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import 'glider-js/glider.min.css';
-import img01 from '../../public/images/card_immersive-fashion.png';
+import img_immersive_fashion from '../../public/images/card_immersive-fashion.png';
+import img_card_otter_escape from '../../public/images/card_otter-escape.png';
+import img_card_college_cookbook from '../../public/images/card_college-cookbook.png';
+import img_card_ovid from '../../public/images/card_ovid.png';
+import img_zen_productivity from '../../public/images/card_zen-productivity.png';
+
 
 
 
@@ -82,7 +87,7 @@ export default function Home() {
             <>
               <div className={styles.carouselFrame} data-swiper-parallax="-3000">
                 <Image 
-                  src="/images/card_otter-escape.png"
+                  src={img_card_otter_escape}
                   width={currIndex==0 ? 450 : 400}
                   height={currIndex==0 ? 650 : 600}
                   style={{margin:'0 auto'}}
@@ -103,7 +108,7 @@ export default function Home() {
             
               <div className={styles.carouselFrame}>
                 <Image 
-                  src="/images/card_college-cookbook.png"
+                  src={img_card_college_cookbook}
                   // width={currIndex==0 ? 450 : 400}
                   // height={currIndex==0 ? 650 : 600}
                   width={currIndex==0 ? 450 : 400}
@@ -125,7 +130,7 @@ export default function Home() {
             <>
               <div className={styles.carouselFrame}>
                 <Image 
-                  src={img01}
+                  src={img_immersive_fashion}
                   width={currIndex==0 ? 450 : 400}
                   height={currIndex==0 ? 650 : 600}
                   style={{margin:'0 auto'}}
@@ -145,7 +150,7 @@ export default function Home() {
             <>
               <div className={styles.carouselFrame}>
                 <Image 
-                  src="/images/card_ovid.png"
+                  src={img_card_ovid}
                   width={currIndex==0 ? 450 : 400}
                   height={currIndex==0 ? 650 : 600}
                   style={{margin:'0 auto'}}
@@ -165,7 +170,7 @@ export default function Home() {
             <>
               <div className={styles.carouselFrame}>
                 <Image 
-                  src="/images/card_zen-productivity.png"
+                  src={img_zen_productivity}
                   width={currIndex==0 ? 450 : 400}
                   height={currIndex==0 ? 650 : 600}
                   style={{margin:'0 auto'}}
