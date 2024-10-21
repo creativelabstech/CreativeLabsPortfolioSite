@@ -44,6 +44,7 @@ export default function Home() {
       <div className={styles.blobCont}>
             <div className={styles.yellowBlob}></div>
             <div className={styles.greenBlob}></div>
+            <a></a>
           </div>
       {/* <div className={styles.navbar}>
           <div className={styles.navSubcontainer}>
@@ -68,7 +69,7 @@ export default function Home() {
         initialSlide="3"
         slidesPerView={5}
         speed= {1000}
-        spaceBetween={400}
+        spaceBetween={4}
         centeredSlides={true}
         loop={true}
         parallax={true}
