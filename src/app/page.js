@@ -15,6 +15,7 @@ import 'swiper/css/navigation';
 import { Pagination, Navigation, Mousewheel } from 'swiper/modules';
 // import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import 'glider-js/glider.min.css';
+import img01 from '../../public/images/card_immersive-fashion.png';
 
 
 
@@ -124,7 +125,7 @@ export default function Home() {
             <>
               <div className={styles.carouselFrame}>
                 <Image 
-                  src="/images/card_immersive-fashion.png"
+                  src={img01}
                   width={currIndex==0 ? 450 : 400}
                   height={currIndex==0 ? 650 : 600}
                   style={{margin:'0 auto'}}
