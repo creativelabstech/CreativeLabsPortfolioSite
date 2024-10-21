@@ -69,7 +69,7 @@ export default function Home() {
         initialSlide="3"
         slidesPerView={5}
         speed= {1000}
-        spaceBetween={200}
+        spaceBetween={300}
         centeredSlides={true}
         loop={true}
         parallax={true}
